@@ -45,3 +45,17 @@
     color: green;
     transition: 0.3s all;
  }
+
+ .logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+ }
