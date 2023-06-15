@@ -59,3 +59,20 @@
     font-size: 13px;
     cursor: pointer;
  }
+
+ button{
+   color:white;
+   background: transparent;
+   border: solid 1px white;
+   padding: 5px;
+   border-radius: 15px;
+   font-size: 12px;
+   width: 150px;
+   cursor: pointer;
+ }
+
+ button:hover{
+   background: linear-gradient(to bottom right, #0fd85c, #8a21ec);
+   color:black;
+   transition: 0.5s;
+ }
