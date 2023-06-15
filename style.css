@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    cursor: url('cursor.cur'), auto;
  }
 
  body{
@@ -15,7 +16,7 @@
 
  .background{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 0.5));
-    background-image:url(Fundo.jpg) ;
+    background-image:url(FundoAI.jpg) ;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -76,3 +77,37 @@
    color:black;
    transition: 0.5s;
  }
+ .container-text{
+   padding: 150px 0 0 130px;
+ }
+
+ .text h3{
+   color: white;
+   font-size: 15px;
+ }
+ 
+ .text h1{
+   color: white;
+   margin-top: 10px;
+}
+
+.text span{
+   color: #0fd85c;
+}
+
+.text p{
+   color: white;
+   font-size: 15px;
+   font-weight: 300;
+   margin-top: 10px;
+}
+
+.redes-sociais a{
+   color:  #0fd85c;
+   padding: 18px;
+   margin-top: 10px;
+}
+
+.btn{
+   margin-top: 12px;
+}
