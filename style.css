@@ -123,12 +123,16 @@
 }
 @media (max-width: 600px){
    .cabeçalho-link{
-      display: none;
+      display: block;
       position: absolute;
       top: 4.6875rem;
       left: 0;
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 0.5));
       text-align: center;
+      width: 100%;
+      height: 0;
+      z-index: 1;
+      transition: 0,5;
 
    }
    .label-cabeçalho-link {
@@ -139,7 +143,11 @@
       padding-block: 1rem;
       cursor: pointer;
       width: 100%;
+      height: 0;
       z-index: 1;
+      visibility: hidden;
+      overflow-y: hidden;
+      transition: 0.5s;
    }
    .cabeçalho-link a{
       padding: 1rem 0;
@@ -163,6 +171,8 @@
    }
 
    .checkbox:checked ~ .cabeçalho-link{
-      
+      height: calc(100vh - 4.6875rem);
+      visibility: visible;
+      overflow-y: auto;
    }
 }
